@@ -1,0 +1,51 @@
+*{
+    font-family: "quicksand";
+}
+
+.logo {
+    width: 150px;
+}
+
+/* The hero image */
+.container-hero {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/image/bg-login.jpg");
+  
+    
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.hero-image{
+    /* Set a specific height */
+    height: 50%;
+}
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-text {
+    width: 60vw;
+}
+
+.product {
+    height: 400px;
+}

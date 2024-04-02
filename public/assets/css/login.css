@@ -1,0 +1,60 @@
+*{
+    font-family: "quicksand";
+}
+
+body{
+    background: linear-gradient(rgb(59, 169, 210 , 0.8) , rgb(242, 238, 238 , 0.8)) , url('/assets/image/bg-body-login.jpg') center center fixed;
+    background-size: cover;
+    /* background-repeat: no-repeat;
+    background-position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom; */
+    height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+.container-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button-login{
+    background-color: rgb(59, 169, 210);
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+}
+#header{
+    margin-bottom: 50px;
+}
+.icon-login{
+    width: 100px;
+}
+#container-login{
+    border-radius: 20px;
+    width: 50%;
+}
+
+@media screen and (max-width: 480px) {
+    #container-login {
+        width : 80%;
+    }
+}
+
+.icon-login img {
+    width: max-content;
+}
+
+.icon-login-fix{
+    color: rgb(53, 63, 67);
+}
+label{
+    color: rgb(53, 63, 67);
+    font-weight: 300;
+}

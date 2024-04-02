@@ -1,0 +1,127 @@
+CRITICAL - 2022-03-13 08:40:08 --> syntax error, unexpected ''role'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\Tugasku\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Admin/Admin_Das...')
+#1 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Admin/Admin_Das...')
+#2 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tugasku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Tugasku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-13 08:40:10 --> syntax error, unexpected ''role'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\Tugasku\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Admin/Admin_Das...')
+#1 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Admin/Admin_Das...')
+#2 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tugasku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Tugasku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-13 08:40:54 --> Undefined property: App\Controllers\Admin::$akun
+#0 C:\xampp\htdocs\Tugasku\app\Controllers\Admin.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(832): App\Controllers\Admin->Data_Akun()
+#2 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tugasku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Tugasku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-13 08:53:59 --> Undefined variable: karyawan
+#0 C:\xampp\htdocs\Tugasku\app\Views\Admin\TambahAkun.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\Tugasku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tugasku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tugasku\system\Common.php(1089): CodeIgniter\View\View->render('Admin/TambahAku...', Array, true)
+#4 C:\xampp\htdocs\Tugasku\app\Controllers\Admin.php(343): view('Admin/TambahAku...', Array)
+#5 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(832): App\Controllers\Admin->Add_Akun()
+#6 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tugasku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Tugasku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-13 08:56:28 --> Undefined variable: karyawan
+#0 C:\xampp\htdocs\Tugasku\app\Views\Admin\TambahAkun.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\Tugasku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tugasku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tugasku\system\Common.php(1089): CodeIgniter\View\View->render('Admin/TambahAku...', Array, true)
+#4 C:\xampp\htdocs\Tugasku\app\Controllers\Admin.php(345): view('Admin/TambahAku...', Array)
+#5 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(832): App\Controllers\Admin->Add_Akun()
+#6 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tugasku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Tugasku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-13 08:57:25 --> Undefined variable: karyawan
+#0 C:\xampp\htdocs\Tugasku\app\Views\Admin\TambahAkun.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\Tugasku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tugasku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tugasku\system\Common.php(1089): CodeIgniter\View\View->render('Admin/TambahAku...', Array, true)
+#4 C:\xampp\htdocs\Tugasku\app\Controllers\Admin.php(347): view('Admin/TambahAku...', Array)
+#5 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(832): App\Controllers\Admin->Add_Akun()
+#6 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tugasku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Tugasku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-13 08:58:02 --> Undefined variable: karyawan
+#0 C:\xampp\htdocs\Tugasku\app\Views\Admin\TambahAkun.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\Tugasku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tugasku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tugasku\system\Common.php(1089): CodeIgniter\View\View->render('Admin/TambahAku...', Array, true)
+#4 C:\xampp\htdocs\Tugasku\app\Controllers\Admin.php(343): view('Admin/TambahAku...', Array)
+#5 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(832): App\Controllers\Admin->Add_Akun()
+#6 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tugasku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Tugasku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-13 09:03:05 --> syntax error, unexpected ']', expecting ')'
+#0 C:\xampp\htdocs\Tugasku\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Admin/Data_Akun')
+#1 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Admin/Data_Akun')
+#2 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tugasku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Tugasku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-13 09:04:19 --> Table 'tugasku.users' doesn't exist
+CRITICAL - 2022-03-13 09:04:19 --> Table 'tugasku.users' doesn't exist
+#0 C:\xampp\htdocs\Tugasku\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\Tugasku\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\Tugasku\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\Tugasku\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Tugasku\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Tugasku\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('jeannix', 'username', Array, NULL)
+#6 C:\xampp\htdocs\Tugasku\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('username', 'username', 'jeannix', Array, Array)
+#7 C:\xampp\htdocs\Tugasku\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\Tugasku\app\Controllers\Admin.php(325): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(832): App\Controllers\Admin->Add_Akun()
+#10 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Tugasku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Tugasku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-03-13 09:10:11 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\Tugasku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Tugasku\system\Common.php(1089): CodeIgniter\View\View->render('Admin/TambahAku...', Array, true)
+#2 C:\xampp\htdocs\Tugasku\app\Controllers\Admin.php(318): view('Admin/TambahAku...', Array)
+#3 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(832): App\Controllers\Admin->Tambah_Akun()
+#4 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Tugasku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Tugasku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-13 09:19:39 --> Undefined variable: tugas
+#0 C:\xampp\htdocs\Tugasku\app\Views\Admin\EditAkun.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\Tugasku\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Tugasku\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Tugasku\system\Common.php(1089): CodeIgniter\View\View->render('Admin/EditAkun', Array, true)
+#4 C:\xampp\htdocs\Tugasku\app\Controllers\Admin.php(329): view('Admin/EditAkun', Array)
+#5 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(832): App\Controllers\Admin->Edit_Akun('1')
+#6 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Tugasku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Tugasku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-03-13 09:23:34 --> Undefined variable: id_tugas
+#0 C:\xampp\htdocs\Tugasku\app\Controllers\Admin.php(411): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 411, Array)
+#1 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(832): App\Controllers\Admin->Edit_Data_Akun()
+#2 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\Tugasku\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Tugasku\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Tugasku\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

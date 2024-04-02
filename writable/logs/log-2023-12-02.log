@@ -1,0 +1,106 @@
+CRITICAL - 2023-12-02 00:33:14 --> Undefined variable $t
+#0 C:\xampp\htdocs\ginsadv\app\Views\admin\daftar_produk.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\ginsadv\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ginsadv\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ginsadv\system\Common.php(1089): CodeIgniter\View\View->render('Admin/daftar_pr...', Array, true)
+#4 C:\xampp\htdocs\ginsadv\app\Controllers\Product.php(42): view('Admin/daftar_pr...', Array)
+#5 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(832): App\Controllers\Product->admin()
+#6 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ginsadv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ginsadv\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-02 04:14:08 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ginsadv\app\Views\details_product.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\ginsadv\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ginsadv\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ginsadv\system\Common.php(1089): CodeIgniter\View\View->render('details_product', Array, true)
+#4 C:\xampp\htdocs\ginsadv\app\Views\layouts\content.php(4): view('details_product')
+#5 C:\xampp\htdocs\ginsadv\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ginsadv\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\ginsadv\system\Common.php(1089): CodeIgniter\View\View->render('layouts/content', Array, true)
+#8 C:\xampp\htdocs\ginsadv\app\Views\layouts\layout_home.php(6): view('layouts/content')
+#9 C:\xampp\htdocs\ginsadv\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\ginsadv\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\ginsadv\system\Common.php(1089): CodeIgniter\View\View->render('layouts/layout_...', Array, true)
+#12 C:\xampp\htdocs\ginsadv\app\Controllers\Product.php(56): view('layouts/layout_...', Array)
+#13 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(832): App\Controllers\Product->details('tambah')
+#14 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#15 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\ginsadv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\xampp\htdocs\ginsadv\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#18 {main}
+ERROR - 2023-12-02 04:16:21 --> Column 'dsc_produk' cannot be null
+CRITICAL - 2023-12-02 04:16:21 --> Column 'dsc_produk' cannot be null
+#0 C:\xampp\htdocs\ginsadv\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ginsadv\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ginsadv\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ginsadv\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ginsadv\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ginsadv\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ginsadv\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ginsadv\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ginsadv\app\Controllers\Product.php(63): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(832): App\Controllers\Product->tambah()
+#10 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#11 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ginsadv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ginsadv\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2023-12-02 04:17:04 --> Column 'stok_produk' cannot be null
+CRITICAL - 2023-12-02 04:17:04 --> Column 'stok_produk' cannot be null
+#0 C:\xampp\htdocs\ginsadv\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ginsadv\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ginsadv\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ginsadv\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ginsadv\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\ginsadv\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\ginsadv\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\ginsadv\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\ginsadv\app\Controllers\Product.php(63): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(832): App\Controllers\Product->tambah()
+#10 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#11 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ginsadv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ginsadv\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2023-12-02 07:26:24 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-12-02 07:26:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\ginsadv\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ginsadv\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ginsadv\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ginsadv\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ginsadv\app\Controllers\Product.php(27): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(832): App\Controllers\Product->index()
+#6 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ginsadv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ginsadv\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-12-02 07:43:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-12-02 07:43:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\ginsadv\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ginsadv\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ginsadv\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ginsadv\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ginsadv\app\Controllers\Product.php(40): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(832): App\Controllers\Product->admin()
+#6 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ginsadv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ginsadv\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-12-02 07:55:15 --> Undefined variable $t
+#0 C:\xampp\htdocs\ginsadv\app\Views\admin\daftar_produk.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 97)
+#1 C:\xampp\htdocs\ginsadv\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ginsadv\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ginsadv\system\Common.php(1089): CodeIgniter\View\View->render('Admin/daftar_pr...', Array, true)
+#4 C:\xampp\htdocs\ginsadv\app\Controllers\Product.php(42): view('Admin/daftar_pr...', Array)
+#5 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(832): App\Controllers\Product->admin()
+#6 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#7 C:\xampp\htdocs\ginsadv\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ginsadv\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ginsadv\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
